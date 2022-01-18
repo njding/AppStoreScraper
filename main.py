@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import json
 
-tiktok = AppStore(country="us", app_name="Tiktok")
+tiktok = AppStore(country="us", app_name="Lifetime Digital")
 
 tiktok.review(how_many=5000)
 
@@ -14,4 +14,4 @@ df2 = df.join(pd.DataFrame(df.pop('review').tolist()))
 
 df2.head()
 
-df2.to_csv('C:/Users/flami/Downloads/SGF/LTH/App Store Reviews tiktok.csv')
+df2.to_csv('C:/Users/flami/Downloads/SGF/LTH/App Store Reviews LifeTime Digital.csv') #Your Path you want to store it in
